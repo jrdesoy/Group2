@@ -25,5 +25,27 @@ namespace group2
             InitializeComponent();
         }
 
+<<<<<<< HEAD
+=======
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnConnect_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnRefresh_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+>>>>>>> efd954b7ffe7fbb975be741259c4ddcae80fefbf
     }
 }
