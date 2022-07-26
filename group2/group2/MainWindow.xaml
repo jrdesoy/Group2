@@ -34,7 +34,7 @@
         <DatePicker x:Name="dtpBirthdate" Grid.Row="7" Margin="3"/>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="9">
-            <Button x:Name="btnSave" Content="Save" Cursor="Hand" Margin="3" Width="100" Click="Button_Click"/>
+            <Button x:Name="btnSave" Content="Save" Cursor="Hand" Margin="3" Width="100" Click="btnSave_Click"/>
             <Button x:Name="btnConnect" Content="Connect" Cursor="Hand"  Margin="3" Width="100" Click="btnConnect_Click"/>
             <Button x:Name="btnRefresh" Content="Refresh" Cursor="Hand"  Margin="3" Width="100" Click="btnRefresh_Click"/>
             <Button x:Name="btnUpdate" Content="Update" Cursor="Hand"  Margin="3" Width="100" Click="btnUpdate_Click"/>
