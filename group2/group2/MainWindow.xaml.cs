@@ -24,5 +24,6 @@ namespace group2
         {
             InitializeComponent();
         }
+
     }
 }
