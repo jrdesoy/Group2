@@ -79,10 +79,10 @@ namespace group2
             dtpBirthdate.Text = string.Empty;
 
         }
-
+        //update button hehe
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-
+        
         }
 >>>>>>> efd954b7ffe7fbb975be741259c4ddcae80fefbf
     }
