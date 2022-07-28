@@ -1,1 +1,9 @@
 hi to yourmom.
+hello to ur mom / she is the best.
+
+process:
+git add .
+git commit -m " " 
+git push
+
+:)) 

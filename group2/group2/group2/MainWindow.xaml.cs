@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Data.SqlClient;
 
 namespace group2
 {
@@ -27,15 +26,6 @@ namespace group2
         {
             InitializeComponent();
         }
-        public static class db_try
-        {
-            public static string conString = "Data Source=LAPTOP-SUP186MI;Initial Catalog = db_try; Integrated Security = True";
-
-            public static SqlConnection GetGlobalConnection()
-            {
-                return new SqlConnection(connectString1);
-            }
-        }
 
 <<<<<<< HEAD
 =======
@@ -48,17 +38,6 @@ namespace group2
 
         private void btnConnect_Click(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
-            SqlConnection con = new SqlConnection(conString);
-            con.Open();
-            if (con.State==System.Data.ConnectionState.Open)
-            {
-                string q = "INSERT INTO StudentsInfo (StudentID, Firstname, Middlename, Lastname, Birthdate) VALUES ('" + txtFirstname.Text.ToString + "', '" + txtMiddlename.Text.ToString + "', '" + txtLastname.Text.ToString + "', '" + dtpBirthdate.SelectedDate.Value + "')";
-                SqlCommand cmd = new SqlCommand(q, con);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Connection Successful!");
-            }
-=======
             SqlConnection cnn;
             cnn = new SqlConnection(connetionString);
             try
@@ -72,7 +51,6 @@ namespace group2
                 MessageBox.Show(ex.Message.ToString());
             }
 
->>>>>>> 61da501196b5770cd07869be82804441c863a309
         }
 
         public void Loadgrid()

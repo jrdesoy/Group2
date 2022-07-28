@@ -46,10 +46,10 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <!--<Button x:Name="btnEdit" Content="Edit" Cursor="Hand" Click="btnEdit_Click"/>
+                                <Button x:Name="btnEdit" Content="Edit" Cursor="Hand" Click="btnEdit_Click"/>
                                 <Button x:Name="btnDelete" Content="Delete" Cursor="Hand" Click="btnDelete_Click"/>
                                 <Button x:Name="btnAddGuardian" Content="add guardian" Cursor="Hand" Click="btnAddGuardian_Click"/>
-                                <Button x:Name="btnViewDetails" Content="view details" Cursor="Hand" Click="btnViewDetails_Click"/>-->
+                                <Button x:Name="btnViewDetails" Content="view details" Cursor="Hand" Click="btnViewDetails_Click"/>
 
                             </StackPanel>
                         </DataTemplate>

@@ -12,3 +12,9 @@ CREATE TABLE StudentsInfo
 	CONSTRAINT PK_InfoStudents PRIMARY KEY CLUSTERED (StudentID),
 )
 go
+
+INSERT INTO StudentsInfo(Firstname, Middlename, Lastname, Birthdate)
+VALUES
+('Sage','H','Maya','1999-12-24');
+
+select * from StudentsInfo
