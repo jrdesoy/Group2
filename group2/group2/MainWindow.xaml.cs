@@ -29,11 +29,25 @@ namespace group2
 =======
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
+            
+
 
         }
 
         private void btnConnect_Click(object sender, RoutedEventArgs e)
         {
+            SqlConnection cnn;
+            cnn = new SqlConnection(connetionString);
+            try
+            {
+                cnn.Open();
+                MessageBox.Show("Connection Open ! ");
+                cnn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
 
         }
 
